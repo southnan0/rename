@@ -1,0 +1,19 @@
+{
+  "name": "@southnan0/rename",
+  "version": "1.0.0",
+  "description": "all files rename tools",
+  "main": "index.js",
+  "author": "southnan0",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "bin": {
+    "s_rename": "./index.js"
+  },
+  "dependencies": {
+    "argv": "^0.0.2",
+    "global": "^4.4.0",
+    "inquirer": "^7.1.0"
+  }
+}
